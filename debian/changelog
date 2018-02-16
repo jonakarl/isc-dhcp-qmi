@@ -1,8 +1,7 @@
-isc-dhcp (4.3.5-3cwy1) zesty; urgency=low
-  * Ported raw IP patch from Bjørn Mork.
-  * Renamed package + added conflict.
+isc-dhcp (4.3.5-3cwy2) zesty; urgency=low
+   * Added provides and replaces to allow packages relying on isc-dhcp-client to be installed.
 
- -- Kristian Evensen <kristian.evensen@gmail.com>  Wed, 3 May 2017 09:11:21 +0200
+ -- Jonas Karlsson <jonas.karlsson@kau.se>  Fri, 16 Feb 2018 11:44:23 +0100
 
 isc-dhcp (4.3.5-3ubuntu1) zesty; urgency=low
 
